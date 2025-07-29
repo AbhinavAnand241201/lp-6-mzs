@@ -22,7 +22,7 @@ export default function Home() {
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-xl overflow-hidden bg-green-main flex items-center justify-center">
               <Image 
-                src="/stoy.png" 
+                src="/mzs.jpeg" 
                 alt="MZS Wallet Logo" 
                 width={40} 
                 height={40}
@@ -46,7 +46,7 @@ export default function Home() {
             <div className="mb-12">
               <div className="w-24 h-24 rounded-2xl overflow-hidden mx-auto mb-8 minimal-glow bg-green-main flex items-center justify-center">
                 <Image 
-                  src="/stoy.png" 
+                  src="/mzs.jpeg" 
                   alt="MZS Wallet Logo" 
                   width={96} 
                   height={96}
@@ -141,7 +141,7 @@ export default function Home() {
                       <div className="text-center">
                         <div className="w-16 h-16 rounded-2xl overflow-hidden mx-auto mb-6">
                           <Image 
-                            src="/stoy.png" 
+                            src="/mzs.jpeg" 
                             alt="MZS Wallet Logo" 
                             width={64} 
                             height={64}
