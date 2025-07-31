@@ -6,9 +6,9 @@ import Image from 'next/image'
 
 export default function Home() {
   const handleDownload = () => {
-    // Open the Google Drive link in a new tab
-    window.open('https://drive.google.com/file/d/1KL3xIIu-yTNwQGQKSidoyyRsh-3SppTf/view?usp=sharing', '_blank')
-  }
+  window.location.href = 'https://drive.google.com/uc?export=download&id=1KL3xIIu-yTNwQGQKSidoyyRsh-3SppTf';
+};
+
 
   return (
     <div className="min-h-screen relative overflow-hidden">
